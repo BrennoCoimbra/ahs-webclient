@@ -1,0 +1,15 @@
+_schema-version: 3.2.0
+ID: ahs-webclient
+version: 1.0.0
+provider: innovation
+description: You can add your application description
+copyright: You can add your copyright information
+modules:
+- name: ahs-extension
+  type: ui-extension
+  path: ahs-extension
+  build-parameters:
+    build-result: dist
+    builder: custom
+    commands:
+    - node ./../node_modules/gulp/bin/gulp --gulpfile ../gulpfile.js --cwd .

@@ -1,0 +1,8 @@
+{
+  "applications": [
+    {
+      "name": "innovation.ahs-webclient.ahs-extension",
+      "path": "ahs-webclient_1.0.0/ahs-extension/webapp"
+    }
+  ]
+}

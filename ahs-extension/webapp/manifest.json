@@ -1,0 +1,18 @@
+{
+  "version": "1.0.0",
+  "name": "innovation.ahs-webclient.ahs-extension",
+  "description": "SAPBusinessOne WebClient UI API extension created by Visual Studio Code",
+  "b1.bundles": [
+    {
+      "id": "ahs-bpview.layout",
+      "baseViewGuid": "r8vmgQw0nUukEmmwrtSsmA",
+      "layout": "layout/ahs-bpview.layout.json",
+      "description": "ahs-bpview",
+      "i18n": {
+        "@@i18n": ["innovation.ahs-webclient.ahs-extension.i18n.i18n"]
+      }
+    }
+  ],
+  "allowedExternalURLs": "*",
+  "allowedServiceLayerAPIs": "*"
+}
